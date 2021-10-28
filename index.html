@@ -6,7 +6,9 @@
   
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
   <title>Structure page HTML</title>
 </head>
 <body>
@@ -19,19 +21,20 @@
      </figure> 
     <nav>
       <ul class="nav-header">
-        <li><a href="#" title="A propos">A propos </a></li> 
-        <li><a href="#" title="Mes Compétences">Compétences</a></li>
-        <li><a href="#" title="Expérience Professionneles">Expérience</a></li>
-        <li><a href="#" title="Formation">Formation</a></li>
-        <li><a href="#" title="Contactez-moi">Contact</a></li>
+        <li><a href="#apropos" title="A propos">A propos </a></li> 
+        <li><a href="#competences" title="Mes Compétences">Compétences</a></li>
+        <li><a href="#exp" title="Expérience Professionneles">Expérience</a></li>
+        <li><a href="#formation" title="Formation">Formation</a></li>
+        <li><a href="contact.html" title="Contactez-moi">Contact</a></li>
               
       </ul>
       
     </nav>
-     <h1>Développeur Front-end</h1>
+     <h1>contact</h1>
   </header>
   <main>
-  <section>
+  <section id="apropos"> 
+    
     <article>
       <header>
       <h2>A propos</h2>
@@ -56,7 +59,7 @@
   </section>   
     
     
-  <section>
+  <section id="exp">
     <h2>Expériences professionnelles</h2>
     <article>
     <h3>Nom de l'entreprise</h3>
@@ -98,7 +101,7 @@
     <hr>
     
   </section>
-  <section>
+  <section id="competences">
       <h2>Compétences</h2>
       
     
@@ -131,7 +134,7 @@
       </table>
     
   </section>
-    <section>
+    <section id="formation">
 
     <h2>Mes Formations</h2>
     <article>
@@ -170,6 +173,7 @@
     </main>
   
   <footer>  
+    <div><span><i class="fab fa-facebook"></i></span><span><i class="fab fa-linkedin"></i></span><span><i class="fab fa-twitter"></i>
   </footer>
 </body>
 </html>
