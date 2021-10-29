@@ -9,14 +9,17 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Structure page HTML</title>
+ 
 </head>
 <body>
   <header>
     <figure>
       <!--Cesi une image-->
 
-      <img src="assets/img/dev-worker_x2100.jpg" alt="Photo Deco" srcset="assets/img/dev-worker_x2100.jpg 2100w, assets/img/dev-worker_x1550.jpg 1550w, assets/img/dev-worker_x775.jpg 775w, assets/img/dev-worker_x390.jpg 390"> 
+      <img src="assets/img/dev-worker_x2100.jpg" alt="Photo Deco" srcset="assets/img/dev-worker_x2100.jpg 2100w, assets/img/dev-worker_x1550.jpg 1550w, assets/img/dev-worker_x775.jpg 775w, assets/img/dev-worker_x390.jpg 390w" sizes="(min-width: 400) 775px, (min-width:960) 1550px, (min-width:1600) 2100px, 100vw"> 
 
 <!--       <figcaption>Rima</figcaption> -->
      </figure> 
@@ -31,9 +34,9 @@
       </ul>
       
     </nav>
-     <h1>contact</h1>
+     <h1>developpeur front end</h1>
   </header>
-  <main>
+  <main id="main">
   <section id="apropos"> 
     
     <article>
@@ -173,7 +176,7 @@
     </section>
     </main>
   
-  <footer>  
+  <footer id="footer">    
     <div><span><i class="fab fa-facebook"></i></span><span><i class="fab fa-linkedin"></i></span><span><i class="fab fa-twitter"></i>
   </footer>
 </body>
