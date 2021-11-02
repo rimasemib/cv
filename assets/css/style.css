@@ -1,26 +1,41 @@
 @font-face {
     font-family: 'Roboto';
-    src: url("*../fonts/Roboto/roboto.woff") format("woff");
+    src: url("../fonts/roboto/RobotoCondensed-Bold-webfont.woff") format("woff");
+    
+
     font-display: swap;
 }
-#footer {
+@font-face {
+    font-family: 'Playfair regular';
+    src: url("../fonts/roboto/playfairld-webfont.ttf") format("ttf"),
+        url("../fonts/roboto/playfairld-re.woff") format("woff");
+    font-display: swap;
+}
+
+.footer {
     background:url(../img/bg-motif.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     height: 300px;
     margin-top: 50px;
 }
-#main {
+.main {
     width: 80%;
     margin: 0 auto;
     /*margin: 10px 50px 50px 10px;
     margin: 0 auto 0;*/
 }
 h1{
+    font-family: Roboto; 
     text-align: center;
     color: red;
     font-size: 32px;
     margin: 20px 0 50px 0;
+}
+h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    
 }
 nav ul {
     width: 70%;
@@ -35,4 +50,22 @@ nav ul li{
     
     float: left;
     
+}
+.bold{
+    font-weight: bold;
+
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.active{
+    color: coral;
+}
+
+h2.blue{
+    font-size: 25px;
+
 }

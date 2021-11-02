@@ -8,7 +8,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Playfair Display:100">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Structure page HTML</title>
@@ -34,24 +41,28 @@
       </ul>
       
     </nav>
-     <h1>developpeur front end</h1>
+     <h1>span class="material-icons-outlined">
+      setting
+      </span>developpeur front end </h1>
   </header>
-  <main id="main">
-  <section id="apropos"> 
+  <main class="main">
+  <section class="apropos"> 
     
     <article>
       <header>
       <h2>A propos</h2>
-      <figure>
-        <img src="https://via.placeholder.com/150?text=Photo Profile" alt="Photo profil">
+      <figure class="apropos__figure">
+        <img src="https://via.placeholder.com/150?text=Photo Profile" class="apropos__figure-img" alt="Photo profil">
       </figure>
         
       <aside>
       <ul>
         <li>IBRAHIM</li>
         <li>Rima</li>
-        <li><a href="mailto:rimasemib@hotmail.com">Contactez-moi</a></li>
-        <li><a href="tel:0646536537"></a></li>
+        <li><span class="material-icons-outlined">
+          email
+          </span><a href="mailto:rimasemib@hotmail.com">Contactez-moi</a></li>
+        <li><a href="tel:0646536537" class="active"> 0646536537</a></li>
         <li><address>Fontenay-Aux-Roses</address></li>
       </ul>
       </aside>
@@ -63,11 +74,11 @@
   </section>   
     
     
-  <section id="exp">
-    <h2>Expériences professionnelles</h2>
+  <section class="exp">
+    <h2 class="blue bold">Expériences professionnelles</h2>
     <article>
     <h3>Nom de l'entreprise</h3>
-    <h3>Nom du poste</h3>
+    <h3 class="title">Nom du poste</h3>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est veritatis quidem tempore molestiae, exercitationem quod deleniti atque ea accusamus cupiditate <br> excepturi dolore earum libero sint quae officia enim dolorem architecto. <br>
     Hic, consequuntur adipisci impedit eligendi tempore inventore! Blanditiis omnis illo dicta officiis facere beatae temporibus officia laboriosam? Explicabo <br>provident quo reprehenderit cumque eligendi quas in cupiditate! Totam a asperiores mollitia.<br>
     Laborum magnam libero vitae, amet ratione nam! Quis error eum id rerum<br> repudiandae? Excepturi laboriosam velit reprehenderit vel iure asperiores aspernatur fuga, error autem unde quam distinctio. Adipisci, qui eos.
@@ -105,7 +116,7 @@
     <hr>
     
   </section>
-  <section id="competences">
+  <section class="competences">
       <h2>Compétences</h2>
       
     
@@ -138,7 +149,7 @@
       </table>
     
   </section>
-    <section id="formation">
+    <section class="formation">
 
     <h2>Mes Formations</h2>
     <article>
@@ -176,7 +187,7 @@
     </section>
     </main>
   
-  <footer id="footer">    
+  <footer class="footer">    
     <div><span><i class="fab fa-facebook"></i></span><span><i class="fab fa-linkedin"></i></span><span><i class="fab fa-twitter"></i>
   </footer>
 </body>
